@@ -1,0 +1,57 @@
+payment-api
+
+//CreditCardHandlingController :
+{
+  "availableCreditBalance": 100000,
+  "creditCardExpiryDate": "2025-01-30",
+  "creditCardNumber": "1122334455667788", //change credit card number each time
+  "creditLimitUsed": 0,
+  "cvvCode": "321",
+  "linkedAccountNumber": "111111333333333",
+  "maxCreditCardLimit": 1000000,
+  "nameOnCreditCard": "sd",
+  "typeOfCreditCard": "Mastercard"
+}
+
+**********************************************************
+
+UpiHandlingController:
+
+{
+  "accountBalance": 10000,
+  "linkedAccountNumber": "098765432112345",
+  "linkedBankName": "HDFC",
+  "passcode": "123456",
+  "upiHolderName": "shubh",
+  "upiId": "shubh@okhdfc"  //change upiId each time
+}
+
+*********************************************************
+
+MakePaymentByUpi :
+
+{
+  "amountToBePaid": 100,
+  "modeOfPayment": "UPI",
+  "passcode": "123456",
+  "transactionIdForPaymentByUpi": "102",  //change transactionIdForPaymentByUpi each time
+  "transactionSource": "Expedia",
+  "upiHolderName": "SD",
+  "upiId": "sd@okaxis"
+}
+
+
+MakePaymentByCreditCard :
+
+{
+  "amountToBePaid": 2000,
+  "creditCardExpiryDate": "2028-05-05",
+  "creditCardNumber": "12345678901234",
+  "cvvCode": "123",
+  "modeOfPayment": "Card",
+  "nameOnCreditCard": "Shubham deshmukh",
+  "transactionIdForPaymentByCreditCard": "102", //change transactionIdForPaymentByCreditCard each time
+  "transactionSource": "BookingCom"
+}
+
+*****************************************************************
